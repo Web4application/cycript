@@ -4,13 +4,11 @@
 oneAPI Level Zero Specification v1.15.31
 
 .. _l0-section::
-
 ===================================
- |l0_full_name|: |l0_spec_version|
+ |l0_full_name| |l0_spec_version|
 ===================================
 
-.. toctree:: 
-```pyx```
+.. toctree
 core/INTRO.rst
 core/PROG.rst
 tools/PROG.rst
