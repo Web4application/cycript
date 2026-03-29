@@ -1,0 +1,2055 @@
+)]}'
+{
+  "antlion": {
+    "name": "antlion",
+    "clone_url": "https://fuchsia.googlesource.com/antlion"
+  },
+  "api-docs-resources": {
+    "name": "api-docs-resources",
+    "clone_url": "https://fuchsia.googlesource.com/api-docs-resources"
+  },
+  "boards/emac": {
+    "name": "boards/emac",
+    "clone_url": "https://fuchsia.googlesource.com/boards/emac",
+    "description": "A VIM3 board configuration for demonstrative purposes"
+  },
+  "build": {
+    "name": "build",
+    "clone_url": "https://fuchsia.googlesource.com/build",
+    "description": "DEPRECATED\n"
+  },
+  "buildtools": {
+    "name": "buildtools",
+    "clone_url": "https://fuchsia.googlesource.com/buildtools",
+    "description": "DEPRECATED"
+  },
+  "clang-plugin": {
+    "name": "clang-plugin",
+    "clone_url": "https://fuchsia.googlesource.com/clang-plugin"
+  },
+  "cobalt": {
+    "name": "cobalt",
+    "clone_url": "https://fuchsia.googlesource.com/cobalt"
+  },
+  "cobalt-registry": {
+    "name": "cobalt-registry",
+    "clone_url": "https://fuchsia.googlesource.com/cobalt-registry"
+  },
+  "Commit-Queue": {
+    "name": "Commit-Queue",
+    "clone_url": "https://fuchsia.googlesource.com/Commit-Queue"
+  },
+  "drivers/audio/dialog": {
+    "name": "drivers/audio/dialog",
+    "clone_url": "https://fuchsia.googlesource.com/drivers/audio/dialog"
+  },
+  "drivers/audio/maxim": {
+    "name": "drivers/audio/maxim",
+    "clone_url": "https://fuchsia.googlesource.com/drivers/audio/maxim"
+  },
+  "drivers/graphics/gpu": {
+    "name": "drivers/graphics/gpu",
+    "clone_url": "https://fuchsia.googlesource.com/drivers/graphics/gpu"
+  },
+  "drivers/input": {
+    "name": "drivers/input",
+    "clone_url": "https://fuchsia.googlesource.com/drivers/input"
+  },
+  "drivers/misc/google/backlight": {
+    "name": "drivers/misc/google/backlight",
+    "clone_url": "https://fuchsia.googlesource.com/drivers/misc/google/backlight"
+  },
+  "drivers/rtc/nxp/pcf8563": {
+    "name": "drivers/rtc/nxp/pcf8563",
+    "clone_url": "https://fuchsia.googlesource.com/drivers/rtc/nxp/pcf8563"
+  },
+  "drivers/wlan/intel/iwlwifi": {
+    "name": "drivers/wlan/intel/iwlwifi",
+    "clone_url": "https://fuchsia.googlesource.com/drivers/wlan/intel/iwlwifi"
+  },
+  "experiences": {
+    "name": "experiences",
+    "clone_url": "https://fuchsia.googlesource.com/experiences"
+  },
+  "fargo": {
+    "name": "fargo",
+    "clone_url": "https://fuchsia.googlesource.com/fargo"
+  },
+  "fidlbolt": {
+    "name": "fidlbolt",
+    "clone_url": "https://fuchsia.googlesource.com/fidlbolt"
+  },
+  "fidl-misc": {
+    "name": "fidl-misc",
+    "clone_url": "https://fuchsia.googlesource.com/fidl-misc"
+  },
+  "fidl-tmlanguage": {
+    "name": "fidl-tmlanguage",
+    "clone_url": "https://fuchsia.googlesource.com/fidl-tmlanguage"
+  },
+  "flutter-embedder": {
+    "name": "flutter-embedder",
+    "clone_url": "https://fuchsia.googlesource.com/flutter-embedder"
+  },
+  "fontdata": {
+    "name": "fontdata",
+    "clone_url": "https://fuchsia.googlesource.com/fontdata"
+  },
+  "forma": {
+    "name": "forma",
+    "clone_url": "https://fuchsia.googlesource.com/forma"
+  },
+  "fuchsia": {
+    "name": "fuchsia",
+    "clone_url": "https://fuchsia.googlesource.com/fuchsia"
+  },
+  "fuchsia-bazel-rules": {
+    "name": "fuchsia-bazel-rules",
+    "clone_url": "https://fuchsia.googlesource.com/fuchsia-bazel-rules"
+  },
+  "Fuchsia-First-Party-Projects": {
+    "name": "Fuchsia-First-Party-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Fuchsia-First-Party-Projects"
+  },
+  "fuchsia-infra-bazel-rules": {
+    "name": "fuchsia-infra-bazel-rules",
+    "clone_url": "https://fuchsia.googlesource.com/fuchsia-infra-bazel-rules"
+  },
+  "fuchsia-lsp": {
+    "name": "fuchsia-lsp",
+    "clone_url": "https://fuchsia.googlesource.com/fuchsia-lsp"
+  },
+  "Fuchsia-Projects": {
+    "name": "Fuchsia-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Fuchsia-Projects"
+  },
+  "Fuchsia-SDK-Samples-Commit-Queue-Projects": {
+    "name": "Fuchsia-SDK-Samples-Commit-Queue-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Fuchsia-SDK-Samples-Commit-Queue-Projects"
+  },
+  "Fuchsia-SDK-Samples-Projects": {
+    "name": "Fuchsia-SDK-Samples-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Fuchsia-SDK-Samples-Projects"
+  },
+  "Fuchsia-Third-Party-Forks": {
+    "name": "Fuchsia-Third-Party-Forks",
+    "clone_url": "https://fuchsia.googlesource.com/Fuchsia-Third-Party-Forks"
+  },
+  "Fuchsia-Third-Party-Mirrors": {
+    "name": "Fuchsia-Third-Party-Mirrors",
+    "clone_url": "https://fuchsia.googlesource.com/Fuchsia-Third-Party-Mirrors"
+  },
+  "Fuchsia-Writable-Projects": {
+    "name": "Fuchsia-Writable-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Fuchsia-Writable-Projects"
+  },
+  "garnet": {
+    "name": "garnet",
+    "clone_url": "https://fuchsia.googlesource.com/garnet",
+    "description": "DEPRECATED"
+  },
+  "gerrit/commit-queue-projects": {
+    "name": "gerrit/commit-queue-projects",
+    "clone_url": "https://fuchsia.googlesource.com/gerrit/commit-queue-projects"
+  },
+  "gigaboot20x6": {
+    "name": "gigaboot20x6",
+    "clone_url": "https://fuchsia.googlesource.com/gigaboot20x6",
+    "description": "A very simple UEFI bootloader for Magenta"
+  },
+  "infra": {
+    "name": "infra",
+    "clone_url": "https://fuchsia.googlesource.com/infra",
+    "description": "DEPRECATED"
+  },
+  "infra/3pp": {
+    "name": "infra/3pp",
+    "clone_url": "https://fuchsia.googlesource.com/infra/3pp"
+  },
+  "infra/black": {
+    "name": "infra/black",
+    "clone_url": "https://fuchsia.googlesource.com/infra/black",
+    "description": "DEPRECATED"
+  },
+  "infra/checkout-tests/integration": {
+    "name": "infra/checkout-tests/integration",
+    "clone_url": "https://fuchsia.googlesource.com/infra/checkout-tests/integration"
+  },
+  "infra/checkout-tests/project1": {
+    "name": "infra/checkout-tests/project1",
+    "clone_url": "https://fuchsia.googlesource.com/infra/checkout-tests/project1"
+  },
+  "infra/checkout-tests/project2": {
+    "name": "infra/checkout-tests/project2",
+    "clone_url": "https://fuchsia.googlesource.com/infra/checkout-tests/project2"
+  },
+  "infra/config": {
+    "name": "infra/config",
+    "clone_url": "https://fuchsia.googlesource.com/infra/config"
+  },
+  "infra/infra": {
+    "name": "infra/infra",
+    "clone_url": "https://fuchsia.googlesource.com/infra/infra"
+  },
+  "infra/prebuilt": {
+    "name": "infra/prebuilt",
+    "clone_url": "https://fuchsia.googlesource.com/infra/prebuilt"
+  },
+  "infra/recipes": {
+    "name": "infra/recipes",
+    "clone_url": "https://fuchsia.googlesource.com/infra/recipes"
+  },
+  "infra/roller-tests/integration": {
+    "name": "infra/roller-tests/integration",
+    "clone_url": "https://fuchsia.googlesource.com/infra/roller-tests/integration"
+  },
+  "infra/roller-tests/test-project": {
+    "name": "infra/roller-tests/test-project",
+    "clone_url": "https://fuchsia.googlesource.com/infra/roller-tests/test-project"
+  },
+  "infra/testproject": {
+    "name": "infra/testproject",
+    "clone_url": "https://fuchsia.googlesource.com/infra/testproject"
+  },
+  "Infra-Commit-Queue-Projects": {
+    "name": "Infra-Commit-Queue-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Infra-Commit-Queue-Projects"
+  },
+  "Infra-Projects": {
+    "name": "Infra-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Infra-Projects"
+  },
+  "integration": {
+    "name": "integration",
+    "clone_url": "https://fuchsia.googlesource.com/integration"
+  },
+  "intellij-language-fidl": {
+    "name": "intellij-language-fidl",
+    "clone_url": "https://fuchsia.googlesource.com/intellij-language-fidl"
+  },
+  "Intel-Linux-Processor-Microcode-Data-Files": {
+    "name": "Intel-Linux-Processor-Microcode-Data-Files",
+    "clone_url": "https://fuchsia.googlesource.com/Intel-Linux-Processor-Microcode-Data-Files"
+  },
+  "jiri": {
+    "name": "jiri",
+    "clone_url": "https://fuchsia.googlesource.com/jiri"
+  },
+  "libc-tests": {
+    "name": "libc-tests",
+    "clone_url": "https://fuchsia.googlesource.com/libc-tests"
+  },
+  "lossmin": {
+    "name": "lossmin",
+    "clone_url": "https://fuchsia.googlesource.com/lossmin"
+  },
+  "manifest": {
+    "name": "manifest",
+    "clone_url": "https://fuchsia.googlesource.com/manifest"
+  },
+  "mold": {
+    "name": "mold",
+    "clone_url": "https://fuchsia.googlesource.com/mold",
+    "description": "DEPRECATED, USE https://fuchsia.googlesource.com/forma"
+  },
+  "mundane": {
+    "name": "mundane",
+    "clone_url": "https://fuchsia.googlesource.com/mundane"
+  },
+  "peridot": {
+    "name": "peridot",
+    "clone_url": "https://fuchsia.googlesource.com/peridot",
+    "description": "DEPRECATED"
+  },
+  "playground/isolate-test": {
+    "name": "playground/isolate-test",
+    "clone_url": "https://fuchsia.googlesource.com/playground/isolate-test"
+  },
+  "protobuf-gn": {
+    "name": "protobuf-gn",
+    "clone_url": "https://fuchsia.googlesource.com/protobuf-gn"
+  },
+  "Public-Projects": {
+    "name": "Public-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Public-Projects"
+  },
+  "quiche/psw": {
+    "name": "quiche/psw",
+    "clone_url": "https://fuchsia.googlesource.com/quiche/psw"
+  },
+  "Read-Only": {
+    "name": "Read-Only",
+    "clone_url": "https://fuchsia.googlesource.com/Read-Only"
+  },
+  "reference-docs": {
+    "name": "reference-docs",
+    "clone_url": "https://fuchsia.googlesource.com/reference-docs"
+  },
+  "rsclient": {
+    "name": "rsclient",
+    "clone_url": "https://fuchsia.googlesource.com/rsclient"
+  },
+  "samples": {
+    "name": "samples",
+    "clone_url": "https://fuchsia.googlesource.com/samples"
+  },
+  "sandbox/kjharland/dest": {
+    "name": "sandbox/kjharland/dest",
+    "clone_url": "https://fuchsia.googlesource.com/sandbox/kjharland/dest"
+  },
+  "sandbox/prebuilt": {
+    "name": "sandbox/prebuilt",
+    "clone_url": "https://fuchsia.googlesource.com/sandbox/prebuilt"
+  },
+  "sandbox/quiche/psw": {
+    "name": "sandbox/quiche/psw",
+    "clone_url": "https://fuchsia.googlesource.com/sandbox/quiche/psw"
+  },
+  "scripts": {
+    "name": "scripts",
+    "clone_url": "https://fuchsia.googlesource.com/scripts",
+    "description": "DEPRECATED"
+  },
+  "sdk-integration": {
+    "name": "sdk-integration",
+    "clone_url": "https://fuchsia.googlesource.com/sdk-integration"
+  },
+  "sdk-samples/drivers": {
+    "name": "sdk-samples/drivers",
+    "clone_url": "https://fuchsia.googlesource.com/sdk-samples/drivers"
+  },
+  "sdk-samples/fortune-teller": {
+    "name": "sdk-samples/fortune-teller",
+    "clone_url": "https://fuchsia.googlesource.com/sdk-samples/fortune-teller"
+  },
+  "sdk-samples/getting-started": {
+    "name": "sdk-samples/getting-started",
+    "clone_url": "https://fuchsia.googlesource.com/sdk-samples/getting-started"
+  },
+  "sdk-samples/getting-started-rust": {
+    "name": "sdk-samples/getting-started-rust",
+    "clone_url": "https://fuchsia.googlesource.com/sdk-samples/getting-started-rust"
+  },
+  "shac-project/checks-cpp": {
+    "name": "shac-project/checks-cpp",
+    "clone_url": "https://fuchsia.googlesource.com/shac-project/checks-cpp"
+  },
+  "shac-project/checks-go": {
+    "name": "shac-project/checks-go",
+    "clone_url": "https://fuchsia.googlesource.com/shac-project/checks-go"
+  },
+  "shac-project/checks-starlark": {
+    "name": "shac-project/checks-starlark",
+    "clone_url": "https://fuchsia.googlesource.com/shac-project/checks-starlark"
+  },
+  "shac-project/fuchsia-checks": {
+    "name": "shac-project/fuchsia-checks",
+    "clone_url": "https://fuchsia.googlesource.com/shac-project/fuchsia-checks"
+  },
+  "shac-project/generic-checks": {
+    "name": "shac-project/generic-checks",
+    "clone_url": "https://fuchsia.googlesource.com/shac-project/generic-checks"
+  },
+  "shac-project/shac": {
+    "name": "shac-project/shac",
+    "clone_url": "https://fuchsia.googlesource.com/shac-project/shac"
+  },
+  "template/driver": {
+    "name": "template/driver",
+    "clone_url": "https://fuchsia.googlesource.com/template/driver"
+  },
+  "testing": {
+    "name": "testing",
+    "clone_url": "https://fuchsia.googlesource.com/testing"
+  },
+  "third_party/abseil-cpp": {
+    "name": "third_party/abseil-cpp",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/abseil-cpp"
+  },
+  "third_party/acpica": {
+    "name": "third_party/acpica",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/acpica"
+  },
+  "third_party/amd-gpu": {
+    "name": "third_party/amd-gpu",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/amd-gpu"
+  },
+  "third_party/android/device/generic/goldfish-opengl": {
+    "name": "third_party/android/device/generic/goldfish-opengl",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/device/generic/goldfish-opengl"
+  },
+  "third_party/android/device/generic/vulkan-cereal": {
+    "name": "third_party/android/device/generic/vulkan-cereal",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/device/generic/vulkan-cereal"
+  },
+  "third_party/android/platform/external/aac": {
+    "name": "third_party/android/platform/external/aac",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/platform/external/aac"
+  },
+  "third_party/android/platform/external/avb": {
+    "name": "third_party/android/platform/external/avb",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/platform/external/avb"
+  },
+  "third_party/android/platform/frameworks/av": {
+    "name": "third_party/android/platform/frameworks/av",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/platform/frameworks/av"
+  },
+  "third_party/android/platform/frameworks/native": {
+    "name": "third_party/android/platform/frameworks/native",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/platform/frameworks/native"
+  },
+  "third_party/android/platform/hardware/interfaces": {
+    "name": "third_party/android/platform/hardware/interfaces",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/platform/hardware/interfaces"
+  },
+  "third_party/android/platform/system/bt": {
+    "name": "third_party/android/platform/system/bt",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/platform/system/bt"
+  },
+  "third_party/android/platform/system/core": {
+    "name": "third_party/android/platform/system/core",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/platform/system/core"
+  },
+  "third_party/android/platform/system/tools/aidl": {
+    "name": "third_party/android/platform/system/tools/aidl",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android/platform/system/tools/aidl"
+  },
+  "third_party/android.googlesource.com/platform/bionic": {
+    "name": "third_party/android.googlesource.com/platform/bionic",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/bionic",
+    "description": "bionic is Android\u0027s C library, math library, and dynamic linker. (fxb/67132)"
+  },
+  "third_party/android.googlesource.com/platform/bootable/libbootloader": {
+    "name": "third_party/android.googlesource.com/platform/bootable/libbootloader",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/bootable/libbootloader"
+  },
+  "third_party/android.googlesource.com/platform/external/perfetto": {
+    "name": "third_party/android.googlesource.com/platform/external/perfetto",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/external/perfetto"
+  },
+  "third_party/android.googlesource.com/platform/frameworks/native": {
+    "name": "third_party/android.googlesource.com/platform/frameworks/native",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/frameworks/native"
+  },
+  "third_party/android.googlesource.com/platform/hardware/google/aemu": {
+    "name": "third_party/android.googlesource.com/platform/hardware/google/aemu",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/hardware/google/aemu"
+  },
+  "third_party/android.googlesource.com/platform/hardware/google/gfxstream": {
+    "name": "third_party/android.googlesource.com/platform/hardware/google/gfxstream",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/hardware/google/gfxstream"
+  },
+  "third_party/android.googlesource.com/platform/packages/modules/Bluetooth": {
+    "name": "third_party/android.googlesource.com/platform/packages/modules/Bluetooth",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/packages/modules/Bluetooth"
+  },
+  "third_party/android.googlesource.com/platform/system/chre": {
+    "name": "third_party/android.googlesource.com/platform/system/chre",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/chre"
+  },
+  "third_party/android.googlesource.com/platform/system/connectivity/wificond": {
+    "name": "third_party/android.googlesource.com/platform/system/connectivity/wificond",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/connectivity/wificond"
+  },
+  "third_party/android.googlesource.com/platform/system/core": {
+    "name": "third_party/android.googlesource.com/platform/system/core",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/core",
+    "description": "minimal bootable environment (fxb/67132)"
+  },
+  "third_party/android.googlesource.com/platform/system/hardware/interfaces": {
+    "name": "third_party/android.googlesource.com/platform/system/hardware/interfaces",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/hardware/interfaces"
+  },
+  "third_party/android.googlesource.com/platform/system/keymint": {
+    "name": "third_party/android.googlesource.com/platform/system/keymint",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/keymint"
+  },
+  "third_party/android.googlesource.com/platform/system/libbase": {
+    "name": "third_party/android.googlesource.com/platform/system/libbase",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/libbase",
+    "description": "convenience functions to make common tasks easier (fxb/67132)"
+  },
+  "third_party/android.googlesource.com/platform/system/libfmq": {
+    "name": "third_party/android.googlesource.com/platform/system/libfmq",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/libfmq"
+  },
+  "third_party/android.googlesource.com/platform/system/libhidl": {
+    "name": "third_party/android.googlesource.com/platform/system/libhidl",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/libhidl"
+  },
+  "third_party/android.googlesource.com/platform/system/libhwbinder": {
+    "name": "third_party/android.googlesource.com/platform/system/libhwbinder",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/libhwbinder"
+  },
+  "third_party/android.googlesource.com/platform/system/libufdt": {
+    "name": "third_party/android.googlesource.com/platform/system/libufdt",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/libufdt"
+  },
+  "third_party/android.googlesource.com/platform/system/liburingutils": {
+    "name": "third_party/android.googlesource.com/platform/system/liburingutils",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/liburingutils",
+    "description": "liburingutils is an android helper library to help using io_uring"
+  },
+  "third_party/android.googlesource.com/platform/system/logging": {
+    "name": "third_party/android.googlesource.com/platform/system/logging",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/logging"
+  },
+  "third_party/android.googlesource.com/platform/system/tools/hidl": {
+    "name": "third_party/android.googlesource.com/platform/system/tools/hidl",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/tools/hidl"
+  },
+  "third_party/android.googlesource.com/platform/system/tools/mkbootimg": {
+    "name": "third_party/android.googlesource.com/platform/system/tools/mkbootimg",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/tools/mkbootimg"
+  },
+  "third_party/android.googlesource.com/platform/system/update_engine": {
+    "name": "third_party/android.googlesource.com/platform/system/update_engine",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/update_engine"
+  },
+  "third_party/android.googlesource.com/platform/tools/test/connectivity": {
+    "name": "third_party/android.googlesource.com/platform/tools/test/connectivity",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/tools/test/connectivity"
+  },
+  "third_party/asio": {
+    "name": "third_party/asio",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/asio"
+  },
+  "third_party/bcmdhd": {
+    "name": "third_party/bcmdhd",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/bcmdhd"
+  },
+  "third_party/benchmark": {
+    "name": "third_party/benchmark",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/benchmark"
+  },
+  "third_party/binutils-gdb": {
+    "name": "third_party/binutils-gdb",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/binutils-gdb"
+  },
+  "third_party/bloaty": {
+    "name": "third_party/bloaty",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/bloaty"
+  },
+  "third_party/blueprint": {
+    "name": "third_party/blueprint",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/blueprint"
+  },
+  "third_party/boringssl": {
+    "name": "third_party/boringssl",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/boringssl"
+  },
+  "third_party/bzip2": {
+    "name": "third_party/bzip2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/bzip2",
+    "mirrored_from_url": "https://sourceware.org/git/bzip2.git"
+  },
+  "third_party/canonical-json-go": {
+    "name": "third_party/canonical-json-go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/canonical-json-go"
+  },
+  "third_party/capstone": {
+    "name": "third_party/capstone",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/capstone"
+  },
+  "third_party/c-ares": {
+    "name": "third_party/c-ares",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/c-ares"
+  },
+  "third_party/chromium.googlesource.com/chromiumos/platform/xorg-conf": {
+    "name": "third_party/chromium.googlesource.com/chromiumos/platform/xorg-conf",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/chromium.googlesource.com/chromiumos/platform/xorg-conf"
+  },
+  "third_party/cmake": {
+    "name": "third_party/cmake",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/cmake"
+  },
+  "third_party/cmocka": {
+    "name": "third_party/cmocka",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/cmocka"
+  },
+  "third_party/crashpad": {
+    "name": "third_party/crashpad",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/crashpad"
+  },
+  "third_party/curl": {
+    "name": "third_party/curl",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/curl"
+  },
+  "third_party/dart-pkg": {
+    "name": "third_party/dart-pkg",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/dart-pkg"
+  },
+  "third_party/demumble": {
+    "name": "third_party/demumble",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/demumble"
+  },
+  "third_party/depthcharge": {
+    "name": "third_party/depthcharge",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/depthcharge"
+  },
+  "third_party/diesel-rs/diesel": {
+    "name": "third_party/diesel-rs/diesel",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/diesel-rs/diesel"
+  },
+  "third_party/dropbear": {
+    "name": "third_party/dropbear",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/dropbear"
+  },
+  "third_party/dtc": {
+    "name": "third_party/dtc",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/dtc"
+  },
+  "third_party/edk2": {
+    "name": "third_party/edk2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/edk2"
+  },
+  "third_party/etnaviv_gpu_tests": {
+    "name": "third_party/etnaviv_gpu_tests",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/etnaviv_gpu_tests"
+  },
+  "third_party/expat": {
+    "name": "third_party/expat",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/expat"
+  },
+  "third_party/f2fs": {
+    "name": "third_party/f2fs",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/f2fs"
+  },
+  "third_party/ffmpeg": {
+    "name": "third_party/ffmpeg",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/ffmpeg"
+  },
+  "third_party/flatbuffers": {
+    "name": "third_party/flatbuffers",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/flatbuffers"
+  },
+  "third_party/flite": {
+    "name": "third_party/flite",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/flite"
+  },
+  "third_party/fonttools": {
+    "name": "third_party/fonttools",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/fonttools",
+    "description": "A library to manipulate font files from Python."
+  },
+  "third_party/freetype2": {
+    "name": "third_party/freetype2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/freetype2"
+  },
+  "third_party/fuchsia_build_status": {
+    "name": "third_party/fuchsia_build_status",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/fuchsia_build_status"
+  },
+  "third_party/gcc_none_toolchains": {
+    "name": "third_party/gcc_none_toolchains",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/gcc_none_toolchains"
+  },
+  "third_party/gdb": {
+    "name": "third_party/gdb",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/gdb"
+  },
+  "third_party/gflags": {
+    "name": "third_party/gflags",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/gflags"
+  },
+  "third_party/git": {
+    "name": "third_party/git",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/git"
+  },
+  "third_party/git.netfilter.org/iptables": {
+    "name": "third_party/git.netfilter.org/iptables",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/git.netfilter.org/iptables",
+    "mirrored_from_url": "https://git.netfilter.org/iptables"
+  },
+  "third_party/git2go": {
+    "name": "third_party/git2go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/git2go"
+  },
+  "third_party/github.com/alacritty/alacritty": {
+    "name": "third_party/github.com/alacritty/alacritty",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/alacritty/alacritty"
+  },
+  "third_party/github.com/ARMmbed/mbedtls": {
+    "name": "third_party/github.com/ARMmbed/mbedtls",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/ARMmbed/mbedtls"
+  },
+  "third_party/github.com/ARM-software/arm-trusted-firmware": {
+    "name": "third_party/github.com/ARM-software/arm-trusted-firmware",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/ARM-software/arm-trusted-firmware"
+  },
+  "third_party/github.com/ARM-software/HWCPipe": {
+    "name": "third_party/github.com/ARM-software/HWCPipe",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/ARM-software/HWCPipe"
+  },
+  "third_party/github.com/astral-sh/ruff": {
+    "name": "third_party/github.com/astral-sh/ruff",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/astral-sh/ruff",
+    "description": "An extremely fast Python linter and code formatter, written in Rust."
+  },
+  "third_party/github.com/bazelbuild/bazel": {
+    "name": "third_party/github.com/bazelbuild/bazel",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/bazel",
+    "description": "a fast, scalable, multi-language and extensible build system"
+  },
+  "third_party/github.com/bazelbuild/bazelisk": {
+    "name": "third_party/github.com/bazelbuild/bazelisk",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/bazelisk",
+    "description": "A user-friendly launcher for Bazel."
+  },
+  "third_party/github.com/bazelbuild/bazel-skylib": {
+    "name": "third_party/github.com/bazelbuild/bazel-skylib",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/bazel-skylib"
+  },
+  "third_party/github.com/bazelbuild/buildtools": {
+    "name": "third_party/github.com/bazelbuild/buildtools",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/buildtools",
+    "description": "A bazel BUILD file formatter and editor"
+  },
+  "third_party/github.com/bazelbuild/platforms": {
+    "name": "third_party/github.com/bazelbuild/platforms",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/platforms"
+  },
+  "third_party/github.com/bazelbuild/remote-apis-sdks": {
+    "name": "third_party/github.com/bazelbuild/remote-apis-sdks",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/remote-apis-sdks"
+  },
+  "third_party/github.com/bazelbuild/rules_cc": {
+    "name": "third_party/github.com/bazelbuild/rules_cc",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_cc"
+  },
+  "third_party/github.com/bazelbuild/rules_go": {
+    "name": "third_party/github.com/bazelbuild/rules_go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_go"
+  },
+  "third_party/github.com/bazelbuild/rules_license": {
+    "name": "third_party/github.com/bazelbuild/rules_license",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_license"
+  },
+  "third_party/github.com/bazelbuild/rules_proto": {
+    "name": "third_party/github.com/bazelbuild/rules_proto",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_proto",
+    "description": "Starlark implementation of proto_library and related \"base layer\" rules in Bazel"
+  },
+  "third_party/github.com/bazelbuild/rules_python": {
+    "name": "third_party/github.com/bazelbuild/rules_python",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_python"
+  },
+  "third_party/github.com/bazelbuild/rules_rust": {
+    "name": "third_party/github.com/bazelbuild/rules_rust",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_rust"
+  },
+  "third_party/github.com/census-instrumentation/opencensus-go": {
+    "name": "third_party/github.com/census-instrumentation/opencensus-go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/census-instrumentation/opencensus-go"
+  },
+  "third_party/github.com/charmbracelet/gum": {
+    "name": "third_party/github.com/charmbracelet/gum",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/charmbracelet/gum",
+    "description": "A tool for glamorous shell scripts"
+  },
+  "third_party/github.com/creack/pty": {
+    "name": "third_party/github.com/creack/pty",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/creack/pty"
+  },
+  "third_party/github.com/docker/docker": {
+    "name": "third_party/github.com/docker/docker",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/docker/docker"
+  },
+  "third_party/github.com/dpranke/pyjson5": {
+    "name": "third_party/github.com/dpranke/pyjson5",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/dpranke/pyjson5",
+    "description": "A Python implementation of the JSON5 data format."
+  },
+  "third_party/github.com/fmtlib/fmt": {
+    "name": "third_party/github.com/fmtlib/fmt",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/fmtlib/fmt"
+  },
+  "third_party/github.com/fsnotify/fsnotify": {
+    "name": "third_party/github.com/fsnotify/fsnotify",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/fsnotify/fsnotify"
+  },
+  "third_party/github.com/GNOME/glib": {
+    "name": "third_party/github.com/GNOME/glib",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/GNOME/glib",
+    "description": "Read-only mirror of https://gitlab.gnome.org/GNOME/glib\n"
+  },
+  "third_party/github.com/GNOME/gvdb": {
+    "name": "third_party/github.com/GNOME/gvdb",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/GNOME/gvdb",
+    "description": "gvdb is a submodule of glib used for database lookups."
+  },
+  "third_party/github.com/GNOME/libxml2": {
+    "name": "third_party/github.com/GNOME/libxml2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/GNOME/libxml2"
+  },
+  "third_party/github.com/go-check/check": {
+    "name": "third_party/github.com/go-check/check",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/go-check/check"
+  },
+  "third_party/github.com/golang/appengine": {
+    "name": "third_party/github.com/golang/appengine",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/golang/appengine"
+  },
+  "third_party/github.com/golang/groupcache": {
+    "name": "third_party/github.com/golang/groupcache",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/golang/groupcache"
+  },
+  "third_party/github.com/golang/protobuf": {
+    "name": "third_party/github.com/golang/protobuf",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/golang/protobuf"
+  },
+  "third_party/github.com/golang/text": {
+    "name": "third_party/github.com/golang/text",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/golang/text"
+  },
+  "third_party/github.com/gonum/gonum": {
+    "name": "third_party/github.com/gonum/gonum",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/gonum/gonum"
+  },
+  "third_party/github.com/google/btree": {
+    "name": "third_party/github.com/google/btree",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/btree"
+  },
+  "third_party/github.com/google/bt-test-interfaces": {
+    "name": "third_party/github.com/google/bt-test-interfaces",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/bt-test-interfaces"
+  },
+  "third_party/github.com/google/cppdap": {
+    "name": "third_party/github.com/google/cppdap",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/cppdap"
+  },
+  "third_party/github.com/google/differential-privacy": {
+    "name": "third_party/github.com/google/differential-privacy",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/differential-privacy"
+  },
+  "third_party/github.com/google/emboss": {
+    "name": "third_party/github.com/google/emboss",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/emboss"
+  },
+  "third_party/github.com/google/farmhash": {
+    "name": "third_party/github.com/google/farmhash",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/farmhash"
+  },
+  "third_party/github.com/google/flatbuffers": {
+    "name": "third_party/github.com/google/flatbuffers",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/flatbuffers"
+  },
+  "third_party/github.com/google/fonts": {
+    "name": "third_party/github.com/google/fonts",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/fonts"
+  },
+  "third_party/github.com/google/gemmlowp": {
+    "name": "third_party/github.com/google/gemmlowp",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/gemmlowp",
+    "description": "A small self-contained low-precision GEMM library"
+  },
+  "third_party/github.com/google/go-cmp": {
+    "name": "third_party/github.com/google/go-cmp",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/go-cmp"
+  },
+  "third_party/github.com/google/googletest": {
+    "name": "third_party/github.com/google/googletest",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/googletest"
+  },
+  "third_party/github.com/google/keep-sorted": {
+    "name": "third_party/github.com/google/keep-sorted",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/keep-sorted"
+  },
+  "third_party/github.com/google/liblc3": {
+    "name": "third_party/github.com/google/liblc3",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/liblc3"
+  },
+  "third_party/github.com/google/licenseclassifier": {
+    "name": "third_party/github.com/google/licenseclassifier",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/licenseclassifier",
+    "description": "The license classifier is a library and set of tools that can analyze text to determine what type of license it contains"
+  },
+  "third_party/github.com/google/material-design-icons": {
+    "name": "third_party/github.com/google/material-design-icons",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/material-design-icons"
+  },
+  "third_party/github.com/google/ml-compiler-opt": {
+    "name": "third_party/github.com/google/ml-compiler-opt",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/ml-compiler-opt"
+  },
+  "third_party/github.com/google/mobly": {
+    "name": "third_party/github.com/google/mobly",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/mobly"
+  },
+  "third_party/github.com/google/perfetto": {
+    "name": "third_party/github.com/google/perfetto",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/perfetto"
+  },
+  "third_party/github.com/google/pprof": {
+    "name": "third_party/github.com/google/pprof",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/pprof"
+  },
+  "third_party/github.com/google/python_portpicker": {
+    "name": "third_party/github.com/google/python_portpicker",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/python_portpicker"
+  },
+  "third_party/github.com/google/ruy": {
+    "name": "third_party/github.com/google/ruy",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/ruy"
+  },
+  "third_party/github.com/google/serde_json5": {
+    "name": "third_party/github.com/google/serde_json5",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/serde_json5"
+  },
+  "third_party/github.com/google/shlex": {
+    "name": "third_party/github.com/google/shlex",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/shlex"
+  },
+  "third_party/github.com/google/snippet-uiautomator": {
+    "name": "third_party/github.com/google/snippet-uiautomator",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/snippet-uiautomator"
+  },
+  "third_party/github.com/google/starlark-go": {
+    "name": "third_party/github.com/google/starlark-go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/starlark-go",
+    "description": "An interpreter for Starlark, implemented in Go"
+  },
+  "third_party/github.com/google/subcommands": {
+    "name": "third_party/github.com/google/subcommands",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/subcommands"
+  },
+  "third_party/github.com/google/subpar": {
+    "name": "third_party/github.com/google/subpar",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/subpar"
+  },
+  "third_party/github.com/google/syzkaller": {
+    "name": "third_party/github.com/google/syzkaller",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/syzkaller"
+  },
+  "third_party/github.com/google/uuid": {
+    "name": "third_party/github.com/google/uuid",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/google/uuid"
+  },
+  "third_party/github.com/googleapis/gax-go": {
+    "name": "third_party/github.com/googleapis/gax-go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/googleapis/gax-go"
+  },
+  "third_party/github.com/googleapis/go-genproto": {
+    "name": "third_party/github.com/googleapis/go-genproto",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/googleapis/go-genproto"
+  },
+  "third_party/github.com/googleapis/google-api-go-client": {
+    "name": "third_party/github.com/googleapis/google-api-go-client",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/googleapis/google-api-go-client"
+  },
+  "third_party/github.com/googleapis/google-cloud-go": {
+    "name": "third_party/github.com/googleapis/google-cloud-go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/googleapis/google-cloud-go",
+    "description": "Cloud client go packages"
+  },
+  "third_party/github.com/googlefonts/noto-cjk": {
+    "name": "third_party/github.com/googlefonts/noto-cjk",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/googlefonts/noto-cjk"
+  },
+  "third_party/github.com/googlefonts/noto-emoji": {
+    "name": "third_party/github.com/googlefonts/noto-emoji",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/googlefonts/noto-emoji"
+  },
+  "third_party/github.com/googlefonts/noto-fonts": {
+    "name": "third_party/github.com/googlefonts/noto-fonts",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/googlefonts/noto-fonts"
+  },
+  "third_party/github.com/go-yaml/yaml": {
+    "name": "third_party/github.com/go-yaml/yaml",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/go-yaml/yaml"
+  },
+  "third_party/github.com/gperftools/gperftools": {
+    "name": "third_party/github.com/gperftools/gperftools",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/gperftools/gperftools"
+  },
+  "third_party/github.com/grpc/grpc-go": {
+    "name": "third_party/github.com/grpc/grpc-go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/grpc/grpc-go"
+  },
+  "third_party/github.com/grpc/grpc-java": {
+    "name": "third_party/github.com/grpc/grpc-java",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/grpc/grpc-java"
+  },
+  "third_party/github.com/gutenye/json5.vim": {
+    "name": "third_party/github.com/gutenye/json5.vim",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/gutenye/json5.vim"
+  },
+  "third_party/github.com/hukkin/tomli": {
+    "name": "third_party/github.com/hukkin/tomli",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/hukkin/tomli"
+  },
+  "third_party/github.com/intel/ARM_NEON_2_x86_SSE": {
+    "name": "third_party/github.com/intel/ARM_NEON_2_x86_SSE",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/intel/ARM_NEON_2_x86_SSE"
+  },
+  "third_party/github.com/intel/gmmlib": {
+    "name": "third_party/github.com/intel/gmmlib",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/intel/gmmlib"
+  },
+  "third_party/github.com/intel/intel-linux-processor-microcode-data-files": {
+    "name": "third_party/github.com/intel/intel-linux-processor-microcode-data-files",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/intel/intel-linux-processor-microcode-data-files"
+  },
+  "third_party/github.com/intel/libva": {
+    "name": "third_party/github.com/intel/libva",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/intel/libva"
+  },
+  "third_party/github.com/intel/libva-utils": {
+    "name": "third_party/github.com/intel/libva-utils",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/intel/libva-utils"
+  },
+  "third_party/github.com/intel/media-driver": {
+    "name": "third_party/github.com/intel/media-driver",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/intel/media-driver"
+  },
+  "third_party/github.com/iovisor/ubpf": {
+    "name": "third_party/github.com/iovisor/ubpf",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/iovisor/ubpf"
+  },
+  "third_party/github.com/jacereda/fsatrace": {
+    "name": "third_party/github.com/jacereda/fsatrace",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/jacereda/fsatrace"
+  },
+  "third_party/github.com/jamesturk/jellyfish": {
+    "name": "third_party/github.com/jamesturk/jellyfish",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/jamesturk/jellyfish"
+  },
+  "third_party/github.com/jbenet/go-context": {
+    "name": "third_party/github.com/jbenet/go-context",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/jbenet/go-context"
+  },
+  "third_party/github.com/jd/tenacity": {
+    "name": "third_party/github.com/jd/tenacity",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/jd/tenacity"
+  },
+  "third_party/github.com/jemalloc/jemalloc": {
+    "name": "third_party/github.com/jemalloc/jemalloc",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/jemalloc/jemalloc"
+  },
+  "third_party/github.com/jessevdk/go-flags": {
+    "name": "third_party/github.com/jessevdk/go-flags",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/jessevdk/go-flags"
+  },
+  "third_party/github.com/jimsch/cn-cbor": {
+    "name": "third_party/github.com/jimsch/cn-cbor",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/jimsch/cn-cbor"
+  },
+  "third_party/github.com/joelspadin/tree-sitter-devicetree": {
+    "name": "third_party/github.com/joelspadin/tree-sitter-devicetree",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/joelspadin/tree-sitter-devicetree"
+  },
+  "third_party/github.com/jqlang/jq": {
+    "name": "third_party/github.com/jqlang/jq",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/jqlang/jq"
+  },
+  "third_party/github.com/kballard/go-shellquote": {
+    "name": "third_party/github.com/kballard/go-shellquote",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/kballard/go-shellquote"
+  },
+  "third_party/github.com/kbknapp/cargo-outdated": {
+    "name": "third_party/github.com/kbknapp/cargo-outdated",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/kbknapp/cargo-outdated",
+    "description": "A cargo subcommand for displaying when Rust dependencies are out of date."
+  },
+  "third_party/github.com/KhronosGroup/OpenCL-Headers": {
+    "name": "third_party/github.com/KhronosGroup/OpenCL-Headers",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/KhronosGroup/OpenCL-Headers"
+  },
+  "third_party/github.com/KhronosGroup/OpenCL-ICD-Loader": {
+    "name": "third_party/github.com/KhronosGroup/OpenCL-ICD-Loader",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/KhronosGroup/OpenCL-ICD-Loader"
+  },
+  "third_party/github.com/KhronosGroup/OpenVX-cts": {
+    "name": "third_party/github.com/KhronosGroup/OpenVX-cts",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/KhronosGroup/OpenVX-cts"
+  },
+  "third_party/github.com/KhronosGroup/Vulkan-Utility-Libraries": {
+    "name": "third_party/github.com/KhronosGroup/Vulkan-Utility-Libraries",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/KhronosGroup/Vulkan-Utility-Libraries"
+  },
+  "third_party/github.com/Kijewski/pyjson5": {
+    "name": "third_party/github.com/Kijewski/pyjson5",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/Kijewski/pyjson5"
+  },
+  "third_party/github.com/Kitware/CMake": {
+    "name": "third_party/github.com/Kitware/CMake",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/Kitware/CMake"
+  },
+  "third_party/github.com/kmackay/micro-ecc": {
+    "name": "third_party/github.com/kmackay/micro-ecc",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/kmackay/micro-ecc"
+  },
+  "third_party/github.com/kr/fs": {
+    "name": "third_party/github.com/kr/fs",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/kr/fs"
+  },
+  "third_party/github.com/kr/pretty": {
+    "name": "third_party/github.com/kr/pretty",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/kr/pretty"
+  },
+  "third_party/github.com/kr/text": {
+    "name": "third_party/github.com/kr/text",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/kr/text"
+  },
+  "third_party/github.com/libffi/libffi": {
+    "name": "third_party/github.com/libffi/libffi",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/libffi/libffi"
+  },
+  "third_party/github.com/llvm/llvm-project": {
+    "name": "third_party/github.com/llvm/llvm-project",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/llvm/llvm-project"
+  },
+  "third_party/github.com/llvm/llvm-test-suite": {
+    "name": "third_party/github.com/llvm/llvm-test-suite",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/llvm/llvm-test-suite"
+  },
+  "third_party/github.com/madler/pigz": {
+    "name": "third_party/github.com/madler/pigz",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/madler/pigz"
+  },
+  "third_party/github.com/madler/zlib": {
+    "name": "third_party/github.com/madler/zlib",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/madler/zlib"
+  },
+  "third_party/github.com/Maratyszcza/pthreadpool": {
+    "name": "third_party/github.com/Maratyszcza/pthreadpool",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/Maratyszcza/pthreadpool",
+    "description": "Portable and efficient thread pool implementation"
+  },
+  "third_party/github.com/maruel/subcommands": {
+    "name": "third_party/github.com/maruel/subcommands",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/maruel/subcommands",
+    "description": "A Go library for writing command-line applications (fxb/71463)."
+  },
+  "third_party/github.com/Mbed-TLS/mbedtls": {
+    "name": "third_party/github.com/Mbed-TLS/mbedtls",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/Mbed-TLS/mbedtls",
+    "description": "Mbed TLS is a C library that implements X.509 certificate manipulation and the TLS and DTLS protocols."
+  },
+  "third_party/github.com/mitchellh/go-homedir": {
+    "name": "third_party/github.com/mitchellh/go-homedir",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/mitchellh/go-homedir"
+  },
+  "third_party/github.com/mjansson/rpmalloc": {
+    "name": "third_party/github.com/mjansson/rpmalloc",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/mjansson/rpmalloc"
+  },
+  "third_party/github.com/moby/moby": {
+    "name": "third_party/github.com/moby/moby",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/moby/moby"
+  },
+  "third_party/github.com/mskelton/dtsfmt": {
+    "name": "third_party/github.com/mskelton/dtsfmt",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/mskelton/dtsfmt"
+  },
+  "third_party/github.com/nedbat/coveragepy": {
+    "name": "third_party/github.com/nedbat/coveragepy",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/nedbat/coveragepy",
+    "description": "Measures code coverage during test execution"
+  },
+  "third_party/github.com/ninja-build/ninja": {
+    "name": "third_party/github.com/ninja-build/ninja",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/ninja-build/ninja"
+  },
+  "third_party/github.com/openxla/stablehlo": {
+    "name": "third_party/github.com/openxla/stablehlo",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/openxla/stablehlo",
+    "description": "StableHLO is an operation set for high-level operations (HLO) in machine learning (ML) models"
+  },
+  "third_party/github.com/OP-TEE/optee_os": {
+    "name": "third_party/github.com/OP-TEE/optee_os",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/OP-TEE/optee_os"
+  },
+  "third_party/github.com/OP-TEE/optee_test": {
+    "name": "third_party/github.com/OP-TEE/optee_test",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/OP-TEE/optee_test"
+  },
+  "third_party/github.com/pciutils/pciids": {
+    "name": "third_party/github.com/pciutils/pciids",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/pciutils/pciids"
+  },
+  "third_party/github.com/PCRE2Project/pcre2": {
+    "name": "third_party/github.com/PCRE2Project/pcre2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/PCRE2Project/pcre2",
+    "description": "PCRE2 development is based here."
+  },
+  "third_party/github.com/petewarden/OouraFFT": {
+    "name": "third_party/github.com/petewarden/OouraFFT",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/petewarden/OouraFFT"
+  },
+  "third_party/github.com/petgraph/petgraph": {
+    "name": "third_party/github.com/petgraph/petgraph",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/petgraph/petgraph"
+  },
+  "third_party/github.com/pkg/errors": {
+    "name": "third_party/github.com/pkg/errors",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/pkg/errors"
+  },
+  "third_party/github.com/pkg/sftp": {
+    "name": "third_party/github.com/pkg/sftp",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/pkg/sftp"
+  },
+  "third_party/github.com/platformdirs/platformdirs": {
+    "name": "third_party/github.com/platformdirs/platformdirs",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/platformdirs/platformdirs"
+  },
+  "third_party/github.com/project-chip/zap": {
+    "name": "third_party/github.com/project-chip/zap",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/project-chip/zap",
+    "description": "ZAP stands for ZCL Advanced Platform. It is used to configure clusters, attributes and other entities for Matter and ZigbeePro applications."
+  },
+  "third_party/github.com/protocolbuffers/protobuf-go": {
+    "name": "third_party/github.com/protocolbuffers/protobuf-go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/protocolbuffers/protobuf-go"
+  },
+  "third_party/github.com/psf/black": {
+    "name": "third_party/github.com/psf/black",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/psf/black",
+    "description": "The uncompromising Python code formatter"
+  },
+  "third_party/github.com/PyCQA/autoflake": {
+    "name": "third_party/github.com/PyCQA/autoflake",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/PyCQA/autoflake",
+    "description": "Remove unused imports and unused variables from Python code"
+  },
+  "third_party/github.com/PyCQA/isort": {
+    "name": "third_party/github.com/PyCQA/isort",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/PyCQA/isort"
+  },
+  "third_party/github.com/PyCQA/mccabe": {
+    "name": "third_party/github.com/PyCQA/mccabe",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/PyCQA/mccabe"
+  },
+  "third_party/github.com/PyCQA/pyflakes": {
+    "name": "third_party/github.com/PyCQA/pyflakes",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/PyCQA/pyflakes",
+    "description": "Checks Python source files for errors"
+  },
+  "third_party/github.com/pycqa/pylint": {
+    "name": "third_party/github.com/pycqa/pylint",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/pycqa/pylint"
+  },
+  "third_party/github.com/pylint-dev/astroid": {
+    "name": "third_party/github.com/pylint-dev/astroid",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/pylint-dev/astroid"
+  },
+  "third_party/github.com/pylint-dev/pylint": {
+    "name": "third_party/github.com/pylint-dev/pylint",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/pylint-dev/pylint"
+  },
+  "third_party/github.com/pyserial/pyserial": {
+    "name": "third_party/github.com/pyserial/pyserial",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/pyserial/pyserial"
+  },
+  "third_party/github.com/python/mypy": {
+    "name": "third_party/github.com/python/mypy",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/python/mypy",
+    "description": "Mypy is a static type checker for Python"
+  },
+  "third_party/github.com/python/mypy_extensions": {
+    "name": "third_party/github.com/python/mypy_extensions",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/python/mypy_extensions",
+    "description": "Extensions to the Python standard library typing module supported by mypy"
+  },
+  "third_party/github.com/python/typing_extensions": {
+    "name": "third_party/github.com/python/typing_extensions",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/python/typing_extensions",
+    "description": "Enable type system features on older Python and experiment with new type system PEPs"
+  },
+  "third_party/github.com/python-jsonschema": {
+    "name": "third_party/github.com/python-jsonschema",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/python-jsonschema"
+  },
+  "third_party/github.com/python-jsonschema/jsonschema": {
+    "name": "third_party/github.com/python-jsonschema/jsonschema",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/python-jsonschema/jsonschema"
+  },
+  "third_party/github.com/pytorch/cpuinfo": {
+    "name": "third_party/github.com/pytorch/cpuinfo",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/pytorch/cpuinfo"
+  },
+  "third_party/github.com/pyusb/pyusb": {
+    "name": "third_party/github.com/pyusb/pyusb",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/pyusb/pyusb",
+    "description": "Easy USB access for Python"
+  },
+  "third_party/github.com/ridiculousfish/libdivide": {
+    "name": "third_party/github.com/ridiculousfish/libdivide",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/ridiculousfish/libdivide",
+    "description": "Official git repository for libdivide: optimized integer division"
+  },
+  "third_party/github.com/rjw57/oauth2device": {
+    "name": "third_party/github.com/rjw57/oauth2device",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/rjw57/oauth2device"
+  },
+  "third_party/github.com/rust-lang/rust": {
+    "name": "third_party/github.com/rust-lang/rust",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rust"
+  },
+  "third_party/github.com/rust-lang/rust-analyzer": {
+    "name": "third_party/github.com/rust-lang/rust-analyzer",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rust-analyzer"
+  },
+  "third_party/github.com/rust-lang/rust-bindgen": {
+    "name": "third_party/github.com/rust-lang/rust-bindgen",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rust-bindgen"
+  },
+  "third_party/github.com/rust-lang/rustc-demangle": {
+    "name": "third_party/github.com/rust-lang/rustc-demangle",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rustc-demangle"
+  },
+  "third_party/github.com/sdispater/tomlkit": {
+    "name": "third_party/github.com/sdispater/tomlkit",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/sdispater/tomlkit"
+  },
+  "third_party/github.com/sergi/go-diff": {
+    "name": "third_party/github.com/sergi/go-diff",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/sergi/go-diff"
+  },
+  "third_party/github.com/smartystreets/go-disruptor": {
+    "name": "third_party/github.com/smartystreets/go-disruptor",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/smartystreets/go-disruptor"
+  },
+  "third_party/github.com/spdx/tools-golang": {
+    "name": "third_party/github.com/spdx/tools-golang",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/spdx/tools-golang"
+  },
+  "third_party/github.com/spdx/tools-python": {
+    "name": "third_party/github.com/spdx/tools-python",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/spdx/tools-python"
+  },
+  "third_party/github.com/spf13/pflag": {
+    "name": "third_party/github.com/spf13/pflag",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/spf13/pflag"
+  },
+  "third_party/github.com/src-d/go-git": {
+    "name": "third_party/github.com/src-d/go-git",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/src-d/go-git"
+  },
+  "third_party/github.com/stefanberger/swtpm": {
+    "name": "third_party/github.com/stefanberger/swtpm",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/stefanberger/swtpm"
+  },
+  "third_party/github.com/tartley/colorama": {
+    "name": "third_party/github.com/tartley/colorama",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/tartley/colorama"
+  },
+  "third_party/github.com/tensorflow/tensorflow": {
+    "name": "third_party/github.com/tensorflow/tensorflow",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/tensorflow/tensorflow"
+  },
+  "third_party/github.com/the-tcpdump-group/libpcap": {
+    "name": "third_party/github.com/the-tcpdump-group/libpcap",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/the-tcpdump-group/libpcap"
+  },
+  "third_party/github.com/the-tcpdump-group/tcpdump": {
+    "name": "third_party/github.com/the-tcpdump-group/tcpdump",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/the-tcpdump-group/tcpdump"
+  },
+  "third_party/github.com/tpm2-software/tpm2-tss": {
+    "name": "third_party/github.com/tpm2-software/tpm2-tss",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/tpm2-software/tpm2-tss"
+  },
+  "third_party/github.com/unicode-org/icu-data": {
+    "name": "third_party/github.com/unicode-org/icu-data",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/unicode-org/icu-data",
+    "description": "International Components for Unicode: Data Repository"
+  },
+  "third_party/github.com/uqfoundation/dill": {
+    "name": "third_party/github.com/uqfoundation/dill",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/uqfoundation/dill"
+  },
+  "third_party/github.com/vim/vim": {
+    "name": "third_party/github.com/vim/vim",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/vim/vim",
+    "description": "The official Vim repository"
+  },
+  "third_party/github.com/wolever/parameterized": {
+    "name": "third_party/github.com/wolever/parameterized",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/wolever/parameterized",
+    "description": "Parameterized testing with any Python test framework (fxb/60453)"
+  },
+  "third_party/github.com/xanzy/ssh-agent": {
+    "name": "third_party/github.com/xanzy/ssh-agent",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/xanzy/ssh-agent"
+  },
+  "third_party/github.com/xeipuuv/gojsonpointer": {
+    "name": "third_party/github.com/xeipuuv/gojsonpointer",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/xeipuuv/gojsonpointer"
+  },
+  "third_party/github.com/xeipuuv/gojsonreference": {
+    "name": "third_party/github.com/xeipuuv/gojsonreference",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/xeipuuv/gojsonreference"
+  },
+  "third_party/github.com/xeipuuv/gojsonschema": {
+    "name": "third_party/github.com/xeipuuv/gojsonschema",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/xeipuuv/gojsonschema"
+  },
+  "third_party/github.com/xinsnake/go-http-digest-auth-client": {
+    "name": "third_party/github.com/xinsnake/go-http-digest-auth-client",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/xinsnake/go-http-digest-auth-client"
+  },
+  "third_party/github.com/zeux/volk": {
+    "name": "third_party/github.com/zeux/volk",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/zeux/volk"
+  },
+  "third_party/github.com/zlib-ng/zlib-ng": {
+    "name": "third_party/github.com/zlib-ng/zlib-ng",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/github.com/zlib-ng/zlib-ng"
+  },
+  "third_party/gitlab.com/drj11/pypng": {
+    "name": "third_party/gitlab.com/drj11/pypng",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/gitlab.com/drj11/pypng"
+  },
+  "third_party/glfw": {
+    "name": "third_party/glfw",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/glfw"
+  },
+  "third_party/glib": {
+    "name": "third_party/glib",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/glib"
+  },
+  "third_party/glog": {
+    "name": "third_party/glog",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/glog"
+  },
+  "third_party/glslang": {
+    "name": "third_party/glslang",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/glslang"
+  },
+  "third_party/go": {
+    "name": "third_party/go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/go"
+  },
+  "third_party/go.uber.org/atomic": {
+    "name": "third_party/go.uber.org/atomic",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/go.uber.org/atomic"
+  },
+  "third_party/go.uber.org/multierr": {
+    "name": "third_party/go.uber.org/multierr",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/go.uber.org/multierr"
+  },
+  "third_party/go-docopt": {
+    "name": "third_party/go-docopt",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/go-docopt"
+  },
+  "third_party/go-humanize": {
+    "name": "third_party/go-humanize",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/go-humanize"
+  },
+  "third_party/golang/crypto": {
+    "name": "third_party/golang/crypto",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang/crypto"
+  },
+  "third_party/golang/glog": {
+    "name": "third_party/golang/glog",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang/glog"
+  },
+  "third_party/golang/net": {
+    "name": "third_party/golang/net",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang/net"
+  },
+  "third_party/golang/snappy": {
+    "name": "third_party/golang/snappy",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang/snappy"
+  },
+  "third_party/golang.org/x/crypto": {
+    "name": "third_party/golang.org/x/crypto",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang.org/x/crypto"
+  },
+  "third_party/golang.org/x/oauth2": {
+    "name": "third_party/golang.org/x/oauth2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang.org/x/oauth2"
+  },
+  "third_party/golang.org/x/sync": {
+    "name": "third_party/golang.org/x/sync",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang.org/x/sync"
+  },
+  "third_party/golang.org/x/sys": {
+    "name": "third_party/golang.org/x/sys",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang.org/x/sys"
+  },
+  "third_party/golang.org/x/time": {
+    "name": "third_party/golang.org/x/time",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang.org/x/time"
+  },
+  "third_party/golang.org/x/xerrors": {
+    "name": "third_party/golang.org/x/xerrors",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golang.org/x/xerrors"
+  },
+  "third_party/goleveldb": {
+    "name": "third_party/goleveldb",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/goleveldb"
+  },
+  "third_party/golibs/github.com/google/go-cmp": {
+    "name": "third_party/golibs/github.com/google/go-cmp",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/golibs/github.com/google/go-cmp"
+  },
+  "third_party/go-modules": {
+    "name": "third_party/go-modules",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/go-modules"
+  },
+  "third_party/google/double-conversion": {
+    "name": "third_party/google/double-conversion",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/google/double-conversion"
+  },
+  "third_party/google/subcommands": {
+    "name": "third_party/google/subcommands",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/google/subcommands"
+  },
+  "third_party/googleapis": {
+    "name": "third_party/googleapis",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/googleapis"
+  },
+  "third_party/googletest": {
+    "name": "third_party/googletest",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/googletest"
+  },
+  "third_party/go-pkg": {
+    "name": "third_party/go-pkg",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/go-pkg"
+  },
+  "third_party/go-tuf": {
+    "name": "third_party/go-tuf",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/go-tuf"
+  },
+  "third_party/grpc": {
+    "name": "third_party/grpc",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/grpc"
+  },
+  "third_party/grpc/grpc-go": {
+    "name": "third_party/grpc/grpc-go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/grpc/grpc-go"
+  },
+  "third_party/gtest": {
+    "name": "third_party/gtest",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/gtest"
+  },
+  "third_party/gvisor.dev/gvisor/netstack": {
+    "name": "third_party/gvisor.dev/gvisor/netstack",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/gvisor.dev/gvisor/netstack"
+  },
+  "third_party/half": {
+    "name": "third_party/half",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/half"
+  },
+  "third_party/hostap": {
+    "name": "third_party/hostap",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/hostap"
+  },
+  "third_party/iccjpeg": {
+    "name": "third_party/iccjpeg",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/iccjpeg"
+  },
+  "third_party/icu": {
+    "name": "third_party/icu",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/icu"
+  },
+  "third_party/imgtec-pvr-rgx-km": {
+    "name": "third_party/imgtec-pvr-rgx-km",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/imgtec-pvr-rgx-km"
+  },
+  "third_party/inih": {
+    "name": "third_party/inih",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/inih"
+  },
+  "third_party/iperf": {
+    "name": "third_party/iperf",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/iperf"
+  },
+  "third_party/jemalloc": {
+    "name": "third_party/jemalloc",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/jemalloc"
+  },
+  "third_party/jinja2": {
+    "name": "third_party/jinja2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/jinja2"
+  },
+  "third_party/json": {
+    "name": "third_party/json",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/json"
+  },
+  "third_party/kr/fs": {
+    "name": "third_party/kr/fs",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/kr/fs"
+  },
+  "third_party/leveldb": {
+    "name": "third_party/leveldb",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/leveldb"
+  },
+  "third_party/libarchive": {
+    "name": "third_party/libarchive",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libarchive"
+  },
+  "third_party/libcxx": {
+    "name": "third_party/libcxx",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libcxx"
+  },
+  "third_party/libcxxabi": {
+    "name": "third_party/libcxxabi",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libcxxabi"
+  },
+  "third_party/libffi": {
+    "name": "third_party/libffi",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libffi"
+  },
+  "third_party/libgit2": {
+    "name": "third_party/libgit2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libgit2"
+  },
+  "third_party/libjpeg-turbo": {
+    "name": "third_party/libjpeg-turbo",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libjpeg-turbo"
+  },
+  "third_party/libpng": {
+    "name": "third_party/libpng",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libpng"
+  },
+  "third_party/libssh2": {
+    "name": "third_party/libssh2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libssh2"
+  },
+  "third_party/libteken": {
+    "name": "third_party/libteken",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libteken"
+  },
+  "third_party/libxml2": {
+    "name": "third_party/libxml2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libxml2"
+  },
+  "third_party/libyuv": {
+    "name": "third_party/libyuv",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/libyuv"
+  },
+  "third_party/linenoise": {
+    "name": "third_party/linenoise",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/linenoise"
+  },
+  "third_party/llvm-project": {
+    "name": "third_party/llvm-project",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/llvm-project"
+  },
+  "third_party/llvm-test-suite": {
+    "name": "third_party/llvm-test-suite",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/llvm-test-suite"
+  },
+  "third_party/lua": {
+    "name": "third_party/lua",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/lua"
+  },
+  "third_party/luci-go": {
+    "name": "third_party/luci-go",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/luci-go"
+  },
+  "third_party/lwip": {
+    "name": "third_party/lwip",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/lwip"
+  },
+  "third_party/lz4": {
+    "name": "third_party/lz4",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/lz4"
+  },
+  "third_party/make": {
+    "name": "third_party/make",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/make"
+  },
+  "third_party/mako": {
+    "name": "third_party/mako",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/mako"
+  },
+  "third_party/markupsafe": {
+    "name": "third_party/markupsafe",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/markupsafe"
+  },
+  "third_party/mdnsresponder": {
+    "name": "third_party/mdnsresponder",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/mdnsresponder"
+  },
+  "third_party/mesa": {
+    "name": "third_party/mesa",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/mesa",
+    "mirrored_from_url": "https://gitlab.freedesktop.org/mesa/mesa.git"
+  },
+  "third_party/mini_chromium": {
+    "name": "third_party/mini_chromium",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/mini_chromium",
+    "description": "A scaled-back interface-compatible version of Chromium\u0027s base library"
+  },
+  "third_party/mio": {
+    "name": "third_party/mio",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/mio"
+  },
+  "third_party/murmurhash.c": {
+    "name": "third_party/murmurhash.c",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/murmurhash.c",
+    "mirrored_from_url": "https://github.com/jwerle/murmurhash.c.git"
+  },
+  "third_party/netstack": {
+    "name": "third_party/netstack",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/netstack"
+  },
+  "third_party/ninja": {
+    "name": "third_party/ninja",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/ninja"
+  },
+  "third_party/nlassert": {
+    "name": "third_party/nlassert",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/nlassert",
+    "description": "https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id\u003d43203"
+  },
+  "third_party/nlio": {
+    "name": "third_party/nlio",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/nlio",
+    "description": "https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id\u003d43081"
+  },
+  "third_party/ogg": {
+    "name": "third_party/ogg",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/ogg"
+  },
+  "third_party/openssh-portable": {
+    "name": "third_party/openssh-portable",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/openssh-portable"
+  },
+  "third_party/openssl-ecjpake": {
+    "name": "third_party/openssl-ecjpake",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/openssl-ecjpake"
+  },
+  "third_party/openthread": {
+    "name": "third_party/openthread",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/openthread"
+  },
+  "third_party/openweave-core": {
+    "name": "third_party/openweave-core",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/openweave-core"
+  },
+  "third_party/openwsman": {
+    "name": "third_party/openwsman",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/openwsman"
+  },
+  "third_party/pigweed.googlesource.com/pigweed/pigweed": {
+    "name": "third_party/pigweed.googlesource.com/pigweed/pigweed",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/pigweed.googlesource.com/pigweed/pigweed"
+  },
+  "third_party/pixman": {
+    "name": "third_party/pixman",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/pixman",
+    "mirrored_from_url": "https://gitlab.freedesktop.org/pixman/pixman"
+  },
+  "third_party/pkg/errors": {
+    "name": "third_party/pkg/errors",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/pkg/errors"
+  },
+  "third_party/pkg/sftp": {
+    "name": "third_party/pkg/sftp",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/pkg/sftp"
+  },
+  "third_party/platform/external/gfxstream-protocols": {
+    "name": "third_party/platform/external/gfxstream-protocols",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/platform/external/gfxstream-protocols"
+  },
+  "third_party/processor-trace": {
+    "name": "third_party/processor-trace",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/processor-trace"
+  },
+  "third_party/protobuf": {
+    "name": "third_party/protobuf",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/protobuf"
+  },
+  "third_party/python/testing-cabal/mock": {
+    "name": "third_party/python/testing-cabal/mock",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/python/testing-cabal/mock"
+  },
+  "third_party/pytoml": {
+    "name": "third_party/pytoml",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/pytoml"
+  },
+  "third_party/pyyaml": {
+    "name": "third_party/pyyaml",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/pyyaml"
+  },
+  "third_party/qcms": {
+    "name": "third_party/qcms",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/qcms"
+  },
+  "third_party/qemu": {
+    "name": "third_party/qemu",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/qemu"
+  },
+  "third_party/quickjs": {
+    "name": "third_party/quickjs",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/quickjs",
+    "description": "QuickJS is a small and embeddable Javascript engine."
+  },
+  "third_party/rapidjson": {
+    "name": "third_party/rapidjson",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/rapidjson"
+  },
+  "third_party/re2": {
+    "name": "third_party/re2",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/re2"
+  },
+  "third_party/roughtime": {
+    "name": "third_party/roughtime",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/roughtime"
+  },
+  "third_party/rust": {
+    "name": "third_party/rust",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/rust"
+  },
+  "third_party/rust-mirrors/quiche": {
+    "name": "third_party/rust-mirrors/quiche",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/rust-mirrors/quiche"
+  },
+  "third_party/rust-mirrors/rand": {
+    "name": "third_party/rust-mirrors/rand",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/rust-mirrors/rand"
+  },
+  "third_party/rust-mirrors/rust-crypto": {
+    "name": "third_party/rust-mirrors/rust-crypto",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/rust-mirrors/rust-crypto"
+  },
+  "third_party/rust-mirrors/rust-tuf": {
+    "name": "third_party/rust-mirrors/rust-tuf",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/rust-mirrors/rust-tuf"
+  },
+  "third_party/rust-mirrors/rustyline": {
+    "name": "third_party/rust-mirrors/rustyline",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/rust-mirrors/rustyline"
+  },
+  "third_party/safeside": {
+    "name": "third_party/safeside",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/safeside"
+  },
+  "third_party/sbase": {
+    "name": "third_party/sbase",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/sbase"
+  },
+  "third_party/sblim-sfcc": {
+    "name": "third_party/sblim-sfcc",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/sblim-sfcc"
+  },
+  "third_party/sdl": {
+    "name": "third_party/sdl",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/sdl"
+  },
+  "third_party/shaderc": {
+    "name": "third_party/shaderc",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/shaderc"
+  },
+  "third_party/skia": {
+    "name": "third_party/skia",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/skia"
+  },
+  "third_party/snappy": {
+    "name": "third_party/snappy",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/snappy"
+  },
+  "third_party/speccpu2000": {
+    "name": "third_party/speccpu2000",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/speccpu2000"
+  },
+  "third_party/speccpu2006": {
+    "name": "third_party/speccpu2006",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/speccpu2006"
+  },
+  "third_party/spirv-cross": {
+    "name": "third_party/spirv-cross",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/spirv-cross"
+  },
+  "third_party/spirv-headers": {
+    "name": "third_party/spirv-headers",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/spirv-headers"
+  },
+  "third_party/spirv-tools": {
+    "name": "third_party/spirv-tools",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/spirv-tools"
+  },
+  "third_party/sqlite": {
+    "name": "third_party/sqlite",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/sqlite"
+  },
+  "third_party/swift": {
+    "name": "third_party/swift",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift"
+  },
+  "third_party/swift-clang": {
+    "name": "third_party/swift-clang",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-clang"
+  },
+  "third_party/swift-cmark": {
+    "name": "third_party/swift-cmark",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-cmark"
+  },
+  "third_party/swift-compiler-rt": {
+    "name": "third_party/swift-compiler-rt",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-compiler-rt"
+  },
+  "third_party/swift-corelibs-foundation": {
+    "name": "third_party/swift-corelibs-foundation",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-corelibs-foundation"
+  },
+  "third_party/swift-corelibs-libdispatch": {
+    "name": "third_party/swift-corelibs-libdispatch",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-corelibs-libdispatch"
+  },
+  "third_party/swift-corelibs-xctest": {
+    "name": "third_party/swift-corelibs-xctest",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-corelibs-xctest"
+  },
+  "third_party/swift-integration-tests": {
+    "name": "third_party/swift-integration-tests",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-integration-tests"
+  },
+  "third_party/swift-llbuild": {
+    "name": "third_party/swift-llbuild",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-llbuild"
+  },
+  "third_party/swift-lldb": {
+    "name": "third_party/swift-lldb",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-lldb"
+  },
+  "third_party/swift-llvm": {
+    "name": "third_party/swift-llvm",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swift-llvm"
+  },
+  "third_party/swig": {
+    "name": "third_party/swig",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/swig"
+  },
+  "third_party/syzkaller": {
+    "name": "third_party/syzkaller",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/syzkaller"
+  },
+  "third_party/tensorflow/tensorflow": {
+    "name": "third_party/tensorflow/tensorflow",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/tensorflow/tensorflow"
+  },
+  "third_party/third_party/github.com/google/perfetto": {
+    "name": "third_party/third_party/github.com/google/perfetto",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/third_party/github.com/google/perfetto",
+    "description": "\u003cdo not use\u003e"
+  },
+  "third_party/tink": {
+    "name": "third_party/tink",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/tink"
+  },
+  "third_party/tokio-core": {
+    "name": "third_party/tokio-core",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/tokio-core"
+  },
+  "third_party/vboot_reference": {
+    "name": "third_party/vboot_reference",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/vboot_reference"
+  },
+  "third_party/vim": {
+    "name": "third_party/vim",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/vim"
+  },
+  "third_party/vulkan_loader_and_validation_layers": {
+    "name": "third_party/vulkan_loader_and_validation_layers",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/vulkan_loader_and_validation_layers"
+  },
+  "third_party/vulkan-cts": {
+    "name": "third_party/vulkan-cts",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/vulkan-cts"
+  },
+  "third_party/Vulkan-Headers": {
+    "name": "third_party/Vulkan-Headers",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/Vulkan-Headers"
+  },
+  "third_party/Vulkan-Loader": {
+    "name": "third_party/Vulkan-Loader",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/Vulkan-Loader"
+  },
+  "third_party/VulkanTools": {
+    "name": "third_party/VulkanTools",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/VulkanTools"
+  },
+  "third_party/Vulkan-Tools": {
+    "name": "third_party/Vulkan-Tools",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/Vulkan-Tools"
+  },
+  "third_party/Vulkan-ValidationLayers": {
+    "name": "third_party/Vulkan-ValidationLayers",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/Vulkan-ValidationLayers"
+  },
+  "third_party/wayland": {
+    "name": "third_party/wayland",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/wayland"
+  },
+  "third_party/webkit": {
+    "name": "third_party/webkit",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/webkit"
+  },
+  "third_party/wsmancli": {
+    "name": "third_party/wsmancli",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/wsmancli"
+  },
+  "third_party/wuffs": {
+    "name": "third_party/wuffs",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/wuffs"
+  },
+  "third_party/xiph/opus": {
+    "name": "third_party/xiph/opus",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/xiph/opus"
+  },
+  "third_party/xz": {
+    "name": "third_party/xz",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/xz"
+  },
+  "third_party/yasm": {
+    "name": "third_party/yasm",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/yasm"
+  },
+  "third_party/yxml": {
+    "name": "third_party/yxml",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/yxml",
+    "mirrored_from_url": "git://g.blicky.net/yxml.git/"
+  },
+  "third_party/zlib": {
+    "name": "third_party/zlib",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/zlib"
+  },
+  "third_party/zstd": {
+    "name": "third_party/zstd",
+    "clone_url": "https://fuchsia.googlesource.com/third_party/zstd"
+  },
+  "Third-Party-Commit-Queue-Projects": {
+    "name": "Third-Party-Commit-Queue-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Third-Party-Commit-Queue-Projects"
+  },
+  "Third-Party-Projects": {
+    "name": "Third-Party-Projects",
+    "clone_url": "https://fuchsia.googlesource.com/Third-Party-Projects"
+  },
+  "tonic": {
+    "name": "tonic",
+    "clone_url": "https://fuchsia.googlesource.com/tonic"
+  },
+  "tools": {
+    "name": "tools",
+    "clone_url": "https://fuchsia.googlesource.com/tools"
+  },
+  "topaz": {
+    "name": "topaz",
+    "clone_url": "https://fuchsia.googlesource.com/topaz",
+    "description": "DEPRECATED"
+  },
+  "toyen": {
+    "name": "toyen",
+    "clone_url": "https://fuchsia.googlesource.com/toyen"
+  },
+  "vscode-plugins": {
+    "name": "vscode-plugins",
+    "clone_url": "https://fuchsia.googlesource.com/vscode-plugins"
+  },
+  "zedmon": {
+    "name": "zedmon",
+    "clone_url": "https://fuchsia.googlesource.com/zedmon"
+  },
+  "zircon": {
+    "name": "zircon",
+    "clone_url": "https://fuchsia.googlesource.com/zircon",
+    "description": "DEPRECATED"
+  }
+}
