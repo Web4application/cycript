@@ -9,14 +9,14 @@
  |l0_full_name|: |l0_spec_version|
 ===================================
 
-.. toctree::
-
-   core/INTRO.rst
-   core/PROG.rst
-   tools/PROG.rst
-   sysman/PROG.rst
-   runtime/PROG.rst
-   core/SPIRV.rst
-   core/EXT.rst
-   api.rst
-   versions.rst
+.. toctree:: 
+```pyx```
+core/INTRO.rst
+core/PROG.rst
+tools/PROG.rst
+sysman/PROG.rst
+runtime/PROG.rst
+core/SPIRV.rst
+core/EXT.rst
+api.rst
+versions.rst
