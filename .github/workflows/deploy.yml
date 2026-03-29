@@ -1,0 +1,22 @@
+name: Deploy iOS Repo
+on:
+  push:
+    paths: ['repo/debs/**']
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update Repository Metadata
+        run: |
+          cd repo
+          dpkg-scanpackages -m ./debs > Packages
+          gzip -c Packages > Packages.gz
+          # Generate Release file with modern hashes
+          apt-ftparchive release . > Release
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./repo
