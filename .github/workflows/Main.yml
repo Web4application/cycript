@@ -1,5 +1,5 @@
 name: Web4App Cycript Build
-on: [push]
+on: [main]
 
 jobs:
   build_ios:
