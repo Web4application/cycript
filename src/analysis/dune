@@ -1,0 +1,13 @@
+(executable
+ (name index)
+ (public_name cycript-analyze)
+ (libraries unix)
+ (foreign_stubs
+  (language cxx)
+  (names cxx_bridge)
+  (flags :standard -fPIC)))
+
+(rule
+ (target cxx_bridge.o)
+ (deps cxx_bridge.cpp)
+ (action (run g++ -c %{deps} -o %{target} -I../../include)))
