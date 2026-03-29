@@ -1,5 +1,3 @@
-
-
 ==============================
 Tools API
 ==============================
@@ -32,18 +30,14 @@ Common Enums
 ------------------------------------------------------------------------------
 
 
-.. _zet-structure-type-t:
-
-zet_structure_type_t
+.. _zet-structure-type-t: zet_structure_type_t
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. doxygenenum:: zet_structure_type_t
     :project: LevelZero
 
 
-.. _zet-value-type-t:
-
-zet_value_type_t
+.. _zet-value-type-t: zet_value_type_t
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. doxygenenum:: zet_value_type_t
@@ -53,17 +47,16 @@ zet_value_type_t
 Common Structures
 ------------------------------------------------------------------------------
 
-.. _zet-base-properties-t:
-
-zet_base_properties_t
+.. zet-base-properties-t: zet_base_properties_t
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. doxygenstruct:: zet_base_properties_t
     :project: LevelZero
-    :members:
-    :undoc-members:
 
-.. _zet-base-desc-t:
+   .. :members:
+   .. :undoc-members:
+
+.. _zet-base-desc-t::
 
 zet_base_desc_t
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -79,55 +72,20 @@ zet_value_t
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. doxygenunion:: zet_value_t
-    :project: LevelZero
 
-.. _zet-typed-value-t:
+.. project: LevelZero
 
-zet_typed_value_t
+.. _zet_typed_value_t: zet_typed_value_t
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. doxygenstruct:: zet_typed_value_t
-    :project: LevelZero
-    :members:
-    :undoc-members:
+.. doxygenstruct:: zet_typed_value_t 
+:project:: LevelZero
+    
+:members:: 
 
+:undoc_members:
 
- 
-
- 
-
- 
-
-
-
-
- 
-
- 
-
- 
-
- 
-
-
-
-
- 
-
- 
-
- 
-
- 
-
-
-
-
- 
-
- 
-
-Module
+ Module
 ============================================================
 * Functions
 
