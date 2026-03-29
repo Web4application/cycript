@@ -6,7 +6,6 @@ Tools API
 oneAPI Level Zero Specification - Version 1.15.31
 
  
-
  
 
 Common
