@@ -18,4 +18,3 @@ void inject_to_process(int pid, const char* dylib_path) {
     } else {
         std::cerr << "Injection failed: " << dlerror() << std::endl;
     }
-}
