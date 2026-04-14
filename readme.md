@@ -23,13 +23,13 @@ def card_3d_demo():
 2. Install **`Cycript (Modernized)`**.
 
 ### Android (Terminal)
-```python
+```bash
 adb push ./libcycript.so /data/local/tmp/
 adb shell chmod +x /data/local/tmp/cycript
 pip install -r requirements.
 ```
 
-```sh
+```cy
 # Inject into a process
 cycript -p [PID]
 python main.py
