@@ -54,4 +54,3 @@ ze_result_t FindMetricGroup(
     return ZE_RESULT_SUCCESS;
 }
 
-
