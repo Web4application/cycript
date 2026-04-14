@@ -27,7 +27,6 @@ Cycript is a toolkit designed to simplify Web4 development by integrating Python
 ---
 
 ## Architecture
-
 The project follows a modular structure:
 
 - **Core**: Core functions and base modules for scripting and automation
@@ -36,22 +35,20 @@ The project follows a modular structure:
 - **Docs**: Documentation and diagrams
 - **Tests**: Unit and integration tests
 
-*Diagram placeholder: Include a flow diagram showing Core → Tools → Scripts → Output.*
+**Diagram placeholder: Include a flow diagram showing Core → Tools → Scripts → Output.**
 
 ---
 
 ## Modules
 
 ### Core
-
 Contains essential classes and functions used throughout Cycript.
 
-**Example functions**:
-
+***Example functions***:
 - `main_function(input)` — Processes input and returns results
 - `helper_function(params)` — Auxiliary support functions
 
-### Tools
+# Tools
 
 Standalone tools for automation and processing.
 
@@ -66,8 +63,8 @@ Ready-to-run example scripts demonstrating common tasks.
 
 **Examples**:
 
-- `example1.py` — Demonstrates basic usage of Core
-- `example2.py` — Combines Core and Tools for practical workflows
+- `examples1.py` — Demonstrates basic usage of Core
+- `examples2.py` — Combines Core and Tools for practical workflows
 
 ---
 
@@ -87,6 +84,10 @@ Check the `/examples` folder for fully functional scripts. Use these as template
 
 Follow the contribution guidelines in `/README.md`.
 
+```bash
+adb shell chmod +x/data/local/tmp/cycript
+pip install -r requirements.
+```
 ---
 
 ## Changelog
@@ -97,4 +98,4 @@ See `/CHANGELOG.md` for a history of changes, updates, and version releases.
 
 ## License
 
-Cycript is distributed under the MIT License. See `/LICENSE` for details.
+Cycript is distributed under the MIT License. See `/LICENSE.txt` for details.
