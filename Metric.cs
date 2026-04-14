@@ -53,3 +53,5 @@ ze_result_t FindMetricGroup(
     free(phMetricGroups);
     return ZE_RESULT_SUCCESS;
 }
+
+
