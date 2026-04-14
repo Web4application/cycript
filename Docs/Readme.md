@@ -21,16 +21,16 @@ def card_3d_demo():
 
 ### iOS (Sileo/Zebra)
 1. Add repo: `https://web4application.github.io`
-2. Install **`Cycript (Modernized)`**.
+2. Install **Cycript (Modernized)**.
 
 ### Android (Terminal)
-```bash
+```
 adb push ./libcycript.so /data/local/tmp/
 adb shell chmod +x /data/local/tmp/cycript
 pip install -r requirements.
 ```
 
-```cy
+```
 # Inject into a process
 cycript -p [PID]
 python main.py
