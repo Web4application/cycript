@@ -1,12 +1,16 @@
-# cycript.web4.com
+.. cycript.web4.com:
+:antlion:
 
-antlion
 antlion.md
-api-docs-resources.md#api-docs-resources.md
+api-docs-resources.md#api-docs-resources
+resources.md
 boards/emac
 build.c
 buildtools.c
-clang-plugin
+buildtools.cy
+buildtools.py
+buildtools.c
+   :clang-plugin:
 cobalt
 cobalt-registry
 Commit-Queue
@@ -17,7 +21,8 @@ drivers/input
 drivers/misc/google/backlight
 drivers/rtc/nxp/pcf8563
 drivers/wlan/intel/iwlwifi
-experiences
+
+:experiences:
 fargo.md
 fidlbolt.md
 fidl-misc
@@ -25,21 +30,23 @@ fidl-tmlanguage
 flutter-embedder
 fontdata
 forma
-fuchsia
+fuchsia.md
 fuchsia-bazel-rules
 Fuchsia-First-Party-Projects
 fuchsia-infra-bazel-rules
 fuchsia-lsp
-Fuchsia-Projects
-Fuchsia-SDK-Samples-Commit-Queue-Projects
+Fuchsia-Projects/
+Fuchsia-SDK-Samples-Commit-Queue-# Projects
 Fuchsia-SDK-Samples-Projects
 Fuchsia-Third-Party-Forks
 Fuchsia-Third-Party-Mirrors
 Fuchsia-Writable-Projects
-garnet
+
+# :garnet:
 gerrit/commit-queue-projects
 gigaboot20x6
-infra
+
+# :infra:
 infra/3pp
 infra/black
 infra/checkout-tests/integration
@@ -53,10 +60,13 @@ infra/roller-tests/integration
 infra/roller-tests/test-project
 infra/testproject
 Infra-Commit-Queue-Projects
-Infra-Projects
+
+  :Infra-Projects:
 integration
 intellij-language-fidl
-Intel-Linux-Processor-Microcode-Data-Files
+Intel-Linux-Processor-Microcode-Data-
+
+  .. Files:
 jiri
 libc-tests
 lossmin
@@ -64,31 +74,35 @@ manifest
 mold
 mundane
 peridot
-playground/isolate-test
+cycript
+
+  >playground/isolate-test
 protobuf-gn
 Public-Projects
 quiche/psw
 Read-Only
 reference-docs
 rsclient
-samples
+
+# samples.
 sandbox/kjharland/dest
 sandbox/prebuilt
 sandbox/quiche/psw
-scripts
+
+  > scripts
 sdk-integration
 sdk-samples/drivers
 sdk-samples/fortune-teller
 sdk-samples/getting-started
-sdk-samples/getting-started-rust
-shac-project/checks-cpp
-shac-project/checks-go
-shac-project/checks-starlark
+sdk-samples/getting-started-rust.
+shac-project/checks-cpp.
+shac-project/checks-go.
+shac-project/checks-starlark.
 shac-project/fuchsia-checks
 shac-project/generic-checks
-shac-project/shac
-template/driver
-testing
+shac-project/shac.
+ >template/driver
+ >testing#
 third_party/abseil-cpp
 third_party/acpica
 third_party/amd-gpu
@@ -101,8 +115,7 @@ third_party/android/platform/frameworks/native
 third_party/android/platform/hardware/interfaces
 third_party/android/platform/system/bt
 third_party/android/platform/system/core
-third_party/android/platform/system/tools/aidl
-third_party/android.googlesource.com/platform/bionic
+third_party/android/platform/system/tools/aidl third_party/android.googlesource.com/platform/bionic
 third_party/android.googlesource.com/platform/bootable/libbootloader
 third_party/android.googlesource.com/platform/external/perfetto
 third_party/android.googlesource.com/platform/frameworks/native
@@ -123,9 +136,8 @@ third_party/android.googlesource.com/platform/system/liburingutils
 third_party/android.googlesource.com/platform/system/logging
 third_party/android.googlesource.com/platform/system/tools/hidl
 third_party/android.googlesource.com/platform/system/tools/mkbootimg
-third_party/android.googlesource.com/platform/system/update_engine
-third_party/android.googlesource.com/platform/tools/test/connectivity
-third_party/asio
+third_party/android.googlesource.com/platform/system/update_engine    third_party/android.googlesource.com/platform/tools/test/connectivity
+  third_party/asio.
 third_party/bcmdhd
 third_party/benchmark
 third_party/binutils-gdb
@@ -162,11 +174,11 @@ third_party/gdb
 third_party/gflags
 third_party/git
 third_party/git.netfilter.org/iptables
-third_party/git2go
-third_party/github.com/alacritty/alacritty
-third_party/github.com/ARMmbed/mbedtls
-third_party/github.com/ARM-software/arm-trusted-firmware
-third_party/github.com/ARM-software/HWCPipe
+  /third_party/git2go
+/third_party/github.com/alacritty/alacritty
+/third_party/github.com/ARMmbed/mbedtls
+/third_party/github.com/ARM-software/arm-trusted-firmware
+third_party/github.com/ARM-software/HWCPipe.
 third_party/github.com/astral-sh/ruff
 third_party/github.com/bazelbuild/bazel
 third_party/github.com/bazelbuild/bazelisk
@@ -339,52 +351,73 @@ third_party/github.com/xinsnake/go-http-digest-auth-client
 third_party/github.com/zeux/volk
 third_party/github.com/zlib-ng/zlib-ng
 third_party/gitlab.com/drj11/pypng
-third_party/glfw
-third_party/glib
-third_party/glog
-third_party/glslang
-third_party/go
-third_party/go.uber.org/atomic
-third_party/go.uber.org/multierr
-third_party/go-docopt
-third_party/go-humanize
-third_party/golang/crypto
-third_party/golang/glog
-third_party/golang/net
-third_party/golang/snappy
+>
+  third_party/glfw
+
+  third_party/glib
+
+  third_party/glog
+
+  third_party/glslang
+
+  third_party/go
+
+  third_party/go.uber.org/atomic
+
+  third_party/go.uber.org/multierr
+
+  third_party/go-docopt
+
+  third_party/go-humanize
+
+  third_party/golang/crypto
+
+  third_party/golang/glog
+
+  third_party/golang/net
+
+  third_party/golang/snappy
+  
 third_party/golang.org/x/crypto
 third_party/golang.org/x/oauth2
 third_party/golang.org/x/sync
 third_party/golang.org/x/sys
 third_party/golang.org/x/time
 third_party/golang.org/x/xerrors
-third_party/goleveldb
+  third_party/goleveldb
 third_party/golibs/github.com/google/go-cmp
-third_party/go-modules
-third_party/google/double-conversion
-third_party/google/subcommands
-third_party/googleapis
+  >third_party/go-modules/
+
+  third_party/google/double-conversion
+
+  >third_party/google/subcommands/
+  third_party/googleapis
 third_party/googletest
 third_party/go-pkg
 third_party/go-tuf
 third_party/grpc
 third_party/grpc/grpc-go
 third_party/gtest
-third_party/gvisor.dev/gvisor/netstack
+
+  >third_party/gvisor.dev/gvisor/netstack
 third_party/half
 third_party/hostap
 third_party/iccjpeg
 third_party/icu
-third_party/imgtec-pvr-rgx-km
+
+  third_party/imgtec-pvr-rgx-km
 third_party/inih
 third_party/iperf
 third_party/jemalloc
-third_party/jinja2
+
+  third_party/jinja2
 third_party/json
-third_party/kr/fs
+
+  third_party/kr/fs
 third_party/leveldb
 third_party/libarchive
-third_party/libcxx
+
+  third_party/libcxx
 third_party/libcxxabi
 third_party/libffi
 third_party/libgit2
@@ -394,39 +427,44 @@ third_party/libssh2
 third_party/libteken
 third_party/libxml2
 third_party/libyuv
-third_party/linenoise
+
+  third_party/linenoise
 third_party/llvm-project
 third_party/llvm-test-suite
 third_party/lua
 third_party/luci-go
 third_party/lwip
 third_party/lz4
-third_party/make
+
+  third_party/make
 third_party/mako
 third_party/markupsafe
 third_party/mdnsresponder
 third_party/mesa
 third_party/mini_chromium
 third_party/mio
-third_party/murmurhash.c
-third_party/netstack
+
+  third_party/murmurhash.c
+
+  third_party/netstack
 third_party/ninja
 third_party/nlassert
 third_party/nlio
 third_party/ogg
-third_party/openssh-portable
+  third_party/openssh-portable
 third_party/openssl-ecjpake
 third_party/openthread
 third_party/openweave-core
 third_party/openwsman
-third_party/pigweed.googlesource.com/pigweed/pigweed
+  third_party/pigweed.googlesource.com/pigweed/pigweed
 third_party/pixman
 third_party/pkg/errors
 third_party/pkg/sftp
 third_party/platform/external/gfxstream-protocols
-third_party/processor-trace
+  third_party/processor-trace
 third_party/protobuf
-third_party/python/testing-cabal/mock
+
+  third_party/python/testing-cabal/mock
 third_party/pytoml
 third_party/pyyaml
 third_party/qcms
@@ -434,27 +472,34 @@ third_party/qemu
 third_party/quickjs
 third_party/rapidjson
 third_party/re2
-third_party/roughtime
-third_party/rust
+
+  third_party/roughtime
+
+  third_party/rust
 third_party/rust-mirrors/quiche
 third_party/rust-mirrors/rand
 third_party/rust-mirrors/rust-crypto
 third_party/rust-mirrors/rust-tuf
 third_party/rust-mirrors/rustyline
-third_party/safeside
+
+  third_party/safeside
 third_party/sbase
 third_party/sblim-sfcc
-third_party/sdl
+
+  third_party/sdl
 third_party/shaderc
 third_party/skia
 third_party/snappy
-third_party/speccpu2000
+
+  third_party/speccpu2000
 third_party/speccpu2006
-third_party/spirv-cross
+
+  third_party/spirv-cross
 third_party/spirv-headers
 third_party/spirv-tools
 third_party/sqlite
-third_party/swift
+
+  third_party/swift
 third_party/swift-clang
 third_party/swift-cmark
 third_party/swift-compiler-rt
@@ -465,10 +510,11 @@ third_party/swift-integration-tests
 third_party/swift-llbuild
 third_party/swift-lldb
 third_party/swift-llvm
-third_party/swig
+
+  third_party/swig
 third_party/syzkaller
-third_party/tensorflow/tensorflow
-third_party/third_party/github.com/google/perfetto
+  third_party/tensorflow/tensorflow/
+examples/third_party/github.com/google/perfetto
 third_party/tink
 third_party/tokio-core
 third_party/vboot_reference
@@ -490,12 +536,14 @@ third_party/yasm
 third_party/yxml
 third_party/zlib
 third_party/zstd
-Third-Party-Commit-Queue-Projects
-Third-Party-Projects
+  
+# Third-Party-Commit-Queue-Projects
+Third-Party-Projects/
 tonic
-tools
-topaz
-toyen
-vscode-plugins
-zedmon
-zircon
+/tools
+/topaz
+/toyen
+/vscode-plugins
+/zedmon
+/zircon
+
