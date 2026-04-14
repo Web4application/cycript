@@ -6,3 +6,4 @@ cy# const app = [UIApp keyWindow];
 cy# await someAsyncLogic();
 npm install -g vercel
 vercel --prod
+
