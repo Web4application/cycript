@@ -14,14 +14,15 @@ We recommend using [uv](https://docs.astral.sh/uv/) (`uv pip install`) instead o
 
 1. Create a working directory:
 
-    ```shell
-    mkdir ~/work-dir
-    cd ~/work-dir
-    ```
+```shell
+    mkdir ~/github.com/web4application/cycript.gut
+    cd ~/cycript
+```
 
 1. Install `uv` and set up a Python virtual environment:
 
-    ```shell
+
+   ```bash
     # If you prefer standard pip, simply use `python3.12 -m venv vllm_env`
     curl -LsSf https://astral.sh/uv/install.sh | sh
     source $HOME/.local/bin/env
@@ -31,10 +32,10 @@ We recommend using [uv](https://docs.astral.sh/uv/) (`uv pip install`) instead o
 
 1. Use the following command to install vllm-tpu using `uv` or `pip`:
 
-    ```shell
+```bash
     uv pip install vllm-tpu
     # Or instead: pip install vllm-tpu
-    ```
+```
 
 ## Run with Docker
 
