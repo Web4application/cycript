@@ -1,7 +1,7 @@
 # 🚀 Web4application Cycript (Modernized)
 
 A powerful, ES6-enabled fork of Cycript designed for modern **iOS (Rootless)** and **Android (ART)**.
-```python
+```card.py
 def card_3d_demo():
     """This is a standalone isolated Python component.
     Behavior and styling is scoped to the component."""
@@ -20,15 +20,16 @@ def card_3d_demo():
 
 ### iOS (Sileo/Zebra)
 1. Add repo: `https://web4application.github.io`
-2. Install **Cycript (Modernized)**.
+2. Install **`Cycript (Modernized)`**.
 
 ### Android (Terminal)
-```bash
+```python
 adb push ./libcycript.so /data/local/tmp/
 adb shell chmod +x /data/local/tmp/cycript
 pip install -r requirements.
 ```
-```bash
+
+```sh
 # Inject into a process
 cycript -p [PID]
 python main.py
@@ -37,3 +38,4 @@ cy# const app = [UIApp keyWindow];
 cy# await someAsyncLogic();
 npm install -g vercel
 vercel --prod
+```
