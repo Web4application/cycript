@@ -1,6 +1,5 @@
 
-============
- Extensions
+Extensions
 ============
 
 Objective
@@ -289,3 +288,6 @@ The following naming conventions must be followed for **driver extensions**:
   - **Descriptors:** ZE_<VENDOR>_STRUCTURE_TYPE_*_EXP_DESC
 
     - Example: `ZE_INTEL_STRUCTURE_TYPE_DEVICE_COMMAND_LIST_WAIT_ON_MEMORY_DATA_SIZE_EXP_DESC`
+
+
+   
